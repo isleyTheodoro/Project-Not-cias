@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgba(211, 192, 192, 0.274) url(..//img/fundo.png) repeat-x;
+}
+#container-pai{
+    width: 70%;
+    margin: 10px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:url(..//img/detalhe-topo.png )no-repeat top right;
+    
+}
+#img-noticia{
+    width: 150px;
+    padding-top: 40px;
+    margin-top: 5px;
+    background: url(..//img/logo.png) no-repeat left center;
+    height: 80px;
+}
+
+#menu-topo #navegacao{
+    width: 70%;
+    margin: 10px auto;
+    background:  rgb(187, 4, 4);
+    border-radius: 8px;
+}
+#navegacao li{
+    display: inline-block;  
+    list-style-type: none; 
+    padding: 5px 6px;
+   
+}
+#navegacao a{ 
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;  
+}
+#navegacao a:hover{
+    background: rgb(255, 255, 255);
+    color:rgb(250, 0, 0) ;
+    text-transform: uppercase;
+    transition: 1s;
+    border-radius: 10px;   
+}
+
+
+
+/*--- INICIO DO MENU CENTRAL (BARRA LATERAL, CONTEUDO CENTRAL,) ---*/
+
+
+
+#principal{                 /*---INICIO FORMATACAO DO CONTEUDO PRINCIPAL ---*/
+    float: left;
+    width: 100%;
+    margin-top: 10vh;
+}                           /*----FIM DA FORMATACAO DO CONTEUDO PRINCIPAL ----*/
+
+#float{
+    clear: both;
+}
+
+
+ #lateral{                 /*---INICIO DO MENU LATERAL <-----  ----*/
+        width: 20%;
+        float:left;
+        background: url(..//img/fundo-caixa.png);
+}
+.menu-lateral-1 h3{
+        margin: 10px 5px;
+        text-align: center;
+        color: #FFF;
+        background:  rgb(187, 4, 4);
+}
+#lateral ul{
+        margin: 5px;
+        width: 95%;
+        background:  rgb(187, 4, 4);
+}
+#lateral li{
+        list-style-type: none;
+        display: block;
+        padding: 1px;  
+}
+#navegacao2 a{
+        padding: 5px 10px;
+        margin-bottom: 5px;
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        border-bottom: 2px solid rgb(112, 27, 27);
+        border-radius: 5px;  
+}
+#navegacao2 a:hover{
+        background: rgb(255, 255, 255);
+        color:rgb(250, 0, 0) ;
+        text-transform: uppercase;
+        transition: 1s;
+        border-radius: 10px;
+}                                 /*---FIM DO MENU LATERAL <-----  ----*/
+        
+
+
+#primario{                       /*---INICIO DO CONTEUDO PRIMARIO (CONTEUDO CENTRAL) ---*/
+    float: left;
+    width: 50%;
+    margin:0 10px;
+    background: url(..//img/fundo-caixa.png);
+}
+#conteudo-central{
+    clear: both;
+    background-image: url(..//img/cidade.jpg);
+}
+#primario h3{
+    margin: 10px 5px;
+    text-align: center;
+    color: #FFF;
+    background:  rgb(187, 4, 4);
+}
+img.imagem-principal {
+	width: 98%;
+    padding: 5px 5px;
+}
+.img-espacos {
+    display: block;
+    margin-top: 10px;
+}
+#conteudo-central a{
+    display: block;
+    color: rgb(202, 0, 0);
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 10px 5px;
+    text-decoration: none;
+    text-align: right;
+}
+#conteudo-central p{
+    font-size: .9rem;
+    padding: 5px 10px;
+}
+#conteudo-central{
+    background: #fff;
+    width: 98%;
+    margin: 5px;
+}                           
+                              /*---FIM DO CONTEUDO PRINCIPAL (CONTEUDO CENTRAL) ---*/
+
+
+
+#secundario{                 /*---INCIO DO CONTEUDO SECUNDARIO LATERAL ------>  ---*/
+    width: 25%;
+    float: left;
+    background: url(..//img/fundo-caixa.png);
+}
+#conteudo-lateral2{
+    background: #fff;
+    width: 95%;
+    margin: 5px;
+}
+#secundario h3{
+    margin: 10px 5px;
+    text-align: center;
+    color: #FFF;
+    background:  rgb(187, 4, 4);
+}
+#conteudo-lateral2 a{
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    color:rgb(187, 4, 4) ;
+    margin:5px 20px ;
+}
+#conteudo-lateral2 p{
+    font-size: .8rem;
+    padding: 3px 5px;
+}
+#conteudo-lateral2 hr{
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 10px; 
+    border: 1px solid rgb(202, 0, 0); 
+    margin-bottom: 20px;
+}
+                          /*----------FIM DO CONTEUDO LATERAL2 ----> ----*/
+
+
+#rodape{
+ clear: both;
+ height: 40px;
+}
+#rodape p{
+    padding-top: 35px;
+    margin-left: 300px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+        
+ /*---------------------FORMATACAO LINK ''BRAISL'' ---------------*/
+#principal-brasil{
+    margin: 10vh auto;
+}
+#primario-brasil{
+    float: left;
+    margin: 5px 10px;
+    width: 70%;
+    background: url(..//img/fundo-caixa.png);
+}
+#primario-brasil h3{
+    margin: 5px 5px;
+    text-align: center;
+    color: #FFF;
+    background:  rgb(187, 4, 4);
+}
+ /*--------------------- FIM FORMATACAO LINK ''BRAISL'' ---------------*/
+
+ #principal-inter{
+    margin: 11vh auto;
+}
+#primario-inter{
+    float: left;
+    margin: 5px 10px;
+    width: 98%;
+    background: url(..//img/fundo-caixa.png);
+}
+#primario-inter h3{
+    padding: 8px 5px;
+    margin: 5px 5px;
+    text-align: center;
+    color: #FFF;
+    background:  rgb(187, 4, 4);
+}
+
+
+
